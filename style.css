@@ -34,6 +34,7 @@ main {
     width: 10px;
     height: 10px;
     background-color: #fff;
+    z-index: 999;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -60,6 +61,7 @@ main {
     -ms-transform: rotate(calc(-30deg * var(--i)));
     -o-transform: rotate(calc(-30deg * var(--i)));
 }
+
 
 .needles{
     position: absolute;
